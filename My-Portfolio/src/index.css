@@ -1,0 +1,58 @@
+.name{
+  font-size: 14px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 5px;
+  float: left;
+}
+
+.menu{
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+  padding-right: 40px;
+  padding-top: 5px;
+  float: right;
+  color: rgba(0, 0, 0, 0.748);
+}
+
+hr {
+  position: sticky;
+  width: 95%;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0,0,0,0.15),rgba(0,0,0,0.75),rgba(0,0,0,0.15));
+}
+
+@media screen and (max-width: 600px)
+{
+  .name{
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 11px;
+    padding-top: 0px;
+    float: left;
+  }
+  
+  .menu{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    padding-right: 7px;
+    padding-top: 0px;
+    float: right;
+  }
+
+  .head{
+    position: sticky;
+    padding-right: 10px;
+  }
+
+  .intro{
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+}
